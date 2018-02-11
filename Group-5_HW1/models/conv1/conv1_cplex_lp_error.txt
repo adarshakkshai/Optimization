@@ -1,0 +1,95 @@
+
+Log started (V12.7.1.0) Tue Sep  5 17:32:54 2017
+
+New value for level of mixed integer node display: 2
+
+Problem 'conv1.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+CPXPARAM_Read_APIEncoding                        "UTF-8"
+CPLEX Error  5002: Q in 'objective' is not positive semi-definite.
+QP with an indefinite objective can be solved
+to local optimality with optimality target 2,
+or to global optimality with optimality target 3
+Presolve time = 0.00 sec. (0.00 ticks)
+Barrier time = 0.00 sec. (0.00 ticks)
+
+Error termination, CPLEX Error  5002.
+Solution time =    0.00 sec.
+Deterministic time = 0.00 ticks  (0.00 ticks/sec)
+
+No solution exists.
+
+Log started (V12.7.1.0) Tue Sep  5 17:33:53 2017
+
+New value for level of mixed integer node display: 2
+New value for type of solution CPLEX will attempt to compute: 3
+
+Problem 'conv1.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+CPXPARAM_Read_APIEncoding                        "UTF-8"
+CPXPARAM_OptimalityTarget                        3
+Warning: global optimality target changes problem type to MIQP.
+Found incumbent of value 0.000000 after 0.00 sec. (0.00 ticks)
+Found incumbent of value -2.750000 after 0.00 sec. (0.00 ticks)
+Tried aggregator 1 time.
+Reduced MIQP has 1 rows, 3 columns, and 2 nonzeros.
+Reduced MIQP has 0 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Reduced MIQP objective Q matrix has 2 nonzeros.
+Presolve time = 0.00 sec. (0.00 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 24 threads.
+Root relaxation solution time = 0.00 sec. (0.00 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           -2.7500      -12.2500           345.45%
+      0     0      -11.0625     0       -2.7500      -11.0625        0  302.27%
+*     0+    0                           -9.0000      -11.0625            22.92%
+      0     0       -9.0000     0       -9.0000      -11.0625        2   22.92%
+Elapsed time = 6.18 sec. (0.07 ticks, tree = 0.01 MB, solutions = 3)
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (0.06 ticks)
+Parallel b&c, 24 threads:
+  Real time             =    6.17 sec. (0.01 ticks)
+  Sync time (average)   =    3.77 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    6.18 sec. (0.07 ticks)
+
+Solution pool: 5 solutions saved.
+
+MIP - Integer optimal solution:  Objective = -8.9999999996e+00
+Solution time =    6.19 sec.  Iterations = 2  Nodes = 1
+Deterministic time = 0.07 ticks  (0.01 ticks/sec)
+
+
+Incumbent solution
+Variable Name           Solution Value
+x                            -0.000000
+
+Incumbent solution
+Variable Name           Solution Value
+y                            -3.000000
+
+Log started (V12.7.1.0) Tue Sep  5 17:36:06 2017
+
+New value for type of solution CPLEX will attempt to compute: 0
+New value for level of mixed integer node display: 2
+
+Problem 'conv1.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+CPXPARAM_Read_APIEncoding                        "UTF-8"
+CPLEX Error  5002: Q in 'objective' is not positive semi-definite.
+QP with an indefinite objective can be solved
+to local optimality with optimality target 2,
+or to global optimality with optimality target 3
+Presolve time = 0.00 sec. (0.00 ticks)
+Barrier time = 0.00 sec. (0.00 ticks)
+
+Error termination, CPLEX Error  5002.
+Solution time =    0.00 sec.
+Deterministic time = 0.00 ticks  (0.00 ticks/sec)
+

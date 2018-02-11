@@ -1,0 +1,4 @@
+option cplex_options 'set opt 3';
+solve;
+disp sol var x;
+disp sol var y;

@@ -1,0 +1,92 @@
+*************************************************************
+
+   NEOS Server Version 5.0
+   Job#     : 5540517
+   Password : XlTzxbBf
+   User     : None
+   Solver   : milp:scip:AMPL
+   Start    : 2017-08-23 14:47:08
+   End      : 2017-08-23 14:47:20
+   Host     : sokrates.la.asu.edu
+
+   Disclaimer:
+
+   This information is provided without any express or
+   implied warranty. In particular, there is no warranty
+   of any kind concerning the fitness of this
+   information  for any particular purpose.
+*************************************************************
+
+
+***SCIP-AMPL***
+
+SCIP version 4.0.0 [precision: 8 byte] [memory: block] [mode: optimized] [LP solver: CPLEX 12.7.1.0] [GitHash: a80a247]
+Copyright (C) 2002-2017 Konrad-Zuse-Zentrum fuer Informationstechnik Berlin (ZIB)
+
+External codes: 
+  CPLEX 12.7.1.0       Linear Programming Solver developed by IBM (www.cplex.com)
+  CppAD 20160000.1     Algorithmic Differentiation of C++ algorithms developed by B. Bell (www.coin-or.org/CppAD)
+  ZLIB 1.2.8           General purpose compression library by J. Gailly and M. Adler (zlib.net)
+  GMP 6.1.0            GNU Multiple Precision Arithmetic Library developed by T. Granlund (gmplib.org)
+  ZIMPL 3.3.4          Zuse Institute Mathematical Programming Language developed by T. Koch (zimpl.zib.de)
+  Ipopt 3.12.7         Interior Point Optimizer developed by A. Waechter et.al. (www.coin-or.org/Ipopt)
+  ASL                  AMPL Solver Library developed by D. Gay (www.netlib.com/ampl)
+
+
+number of parameters = 2140
+non-default parameter settings:
+limits/time = 36000
+limits/gap = 0.0001
+limits/absgap = 1e-09
+
+
+read problem </tmp/at12825.nl>
+============
+
+original problem has 91 variables (91 bin, 0 int, 0 impl, 0 cont) and 16278 constraints
+
+presolving:
+(round 1, exhaustive) 0 del vars, 0 del conss, 0 add conss, 0 chg bounds, 0 chg sides, 0 chg coeffs, 16277 upgd conss, 0 impls, 0 clqs
+   (0.5s) probing: 51/91 (56.0%) - 0 fixings, 0 aggregations, 0 implications, 0 bound changes
+   (0.5s) probing aborted: 50/50 successive totally useless probings
+presolving (2 rounds: 2 fast, 2 medium, 2 exhaustive):
+ 0 deleted vars, 0 deleted constraints, 0 added constraints, 0 tightened bounds, 0 added holes, 0 changed sides, 0 changed coefficients
+ 0 implications, 0 cliques
+presolved problem has 91 variables (91 bin, 0 int, 0 impl, 0 cont) and 16278 constraints
+  15913 constraints of type <knapsack>
+      1 constraints of type <linear>
+    364 constraints of type <logicor>
+transformed objective value is always integral (scale: 1)
+Presolving Time: 0.45
+
+ time | node  | left  |LP iter|LP it/n| mem |mdpt |frac |vars |cons |cols |rows |cuts |confs|strbr|  dualbound   | primalbound  |  gap   
+* 0.8s|     1 |     0 |    52 |     - | 215M|   0 |   - |  91 |  16k|  91 |  16k|   0 |   5 |   0 | 3.323000e+03 | 3.323000e+03 |   0.00%
+  0.8s|     1 |     0 |    52 |     - | 215M|   0 |   - |  91 |  16k|  91 |  16k|   0 |   5 |   0 | 3.323000e+03 | 3.323000e+03 |   0.00%
+
+SCIP Status        : problem is solved [optimal solution found]
+Solving Time (sec) : 0.83
+Solving Nodes      : 1
+Primal Bound       : +3.32300000000000e+03 (1 solutions)
+Dual Bound         : +3.32300000000000e+03
+Gap                : 0.00 %
+
+optimal solution found
+
+optimal solution found
+X [*,*]
+:   b   c   d   e   f   g   h   i   j   k   l   m   n    :=
+a   1   0   0   0   0   0   0   0   1   0   0   0   0
+b   .   0   0   0   0   0   0   0   0   0   0   0   1
+c   .   .   1   0   0   0   0   0   0   0   0   0   1
+d   .   .   .   1   0   0   0   0   0   0   0   0   0
+e   .   .   .   .   1   0   0   0   0   0   0   0   0
+f   .   .   .   .   .   0   0   0   0   0   1   0   0
+g   .   .   .   .   .   .   0   0   0   0   1   1   0
+h   .   .   .   .   .   .   .   0   0   1   0   1   0
+i   .   .   .   .   .   .   .   .   1   1   0   0   0
+j   .   .   .   .   .   .   .   .   .   0   0   0   0
+k   .   .   .   .   .   .   .   .   .   .   0   0   0
+l   .   .   .   .   .   .   .   .   .   .   .   0   0
+m   .   .   .   .   .   .   .   .   .   .   .   .   0
+;
+

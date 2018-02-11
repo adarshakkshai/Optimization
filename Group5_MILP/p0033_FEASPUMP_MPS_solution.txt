@@ -1,0 +1,171 @@
+*************************************************************
+
+   NEOS Server Version 5.0
+   Job#     : 5586323
+   Password : PNBKnhSs
+   User     : None
+   Solver   : milp:feaspump:MPS
+   Start    : 2017-09-17 18:18:30
+   End      : 2017-09-17 18:18:31
+   Host     : thales.la.asu.edu
+
+   Disclaimer:
+
+   This information is provided without any express or
+   implied warranty. In particular, there is no warranty
+   of any kind concerning the fitness of this
+   information  for any particular purpose.
+*************************************************************
+
+
+*** You chose the AB version of FP ***
+
+Registering SolutionTransformers...done
+Registering Var Rankers...done
+Registering LinearPropagatorFactories...done
+Registering VarBoundFactory...done
+Registering LogicFactory...done
+Output dir: ./tmp/mps
+>config
+	probName = mps
+	runName = default
+	presolve = 1
+	numThreads = 4
+	cpxVersion = 12070100
+	gitHash = d25e609-dirty
+	fpVersion = 2.2
+	printSol = 1
+	storeSol = 1
+>originalProblem
+	nvars = 33
+	binaries = 33
+	integers = 0
+	nrows = 16
+>presolvedProblem
+	hasPresolve = 1
+	emptyProblem = 0
+	offset = 576
+>presolvedProblem
+	nvars = 33
+	binaries = 28
+	integers = 5
+	nrows = 18
+>config
+	frac2int = propround
+	firstOptMethod = default
+	reOptMethod = default
+	timeLimit = 7200
+	pumpReduceIterLimit = -1
+	iterLimit = 10000
+	s1IterLimit = 5000
+	s1MaxMissedDecrease = 1000
+	maxMissedDecrease = 2000
+	maxRestarts = 5000
+	avgFlips = 20
+	integralityEps = 1e-05
+	seed = 120507
+	sigmaThr = 1e-06
+	optIterLimit = -1
+	reOptIterLimit = -1
+	alpha = 1
+	alphaFactor = 0.9
+	alphaDist = 0.005
+	doStage3 = 1
+	walksatPerturbe = 0
+	forceWalksat = 0
+	feasWalksat = 0
+	logPerturbation = 0
+	logDetails = 0
+	logIteration = 0
+	logTime = 0
+	logLP = 0
+>config
+	randomizedRounding = 1
+	logDetails = 0
+>config
+	ranker = FRAC
+	filterConstraints = 1
+>config
+	reverse = 0
+	rankNoise = 0.1
+	noiseAfter = 10
+>fpInit
+
+Propagators:
+logic 0
+varbound 0
+cardinality 4
+knapsack 1
+linear 13
+Filtered out 0
+	fixedCnt = 0
+	isBinary = 0
+	isPureInteger = 1
+CPXPARAM_TimeLimit                               7199.9999876329675
+CPXPARAM_Threads                                 4
+Tried aggregator 1 time.
+LP Presolve eliminated 5 rows and 8 columns.
+Reduced LP has 13 rows, 25 columns, and 81 nonzeros.
+Presolve time = 0.00 sec. (0.02 ticks)
+
+Iteration log . . .
+Iteration:     1   Dual objective     =          1629.450000
+relaxationTime = 0.000750075
+relaxationObjValue = 2262.55
+  iter stage     alpha             origObj     #frac   sumfrac      dist P  #flips      time
+     1     1    0.9000             2262.55         6    0.5621    4.4455                0.00
+     2     1    0.8100             2302.28         4    0.8375    3.4375                0.00
+     3     1    0.7290             2397.48         3    0.6708    2.2708                0.00
+     4     1    0.6561             2397.48         3    0.6708    2.2708                0.00
+     5     1    0.5905             2397.48         3    0.6708    2.2708                0.00
+     6     1    0.5314             2643.94         2    0.4708    0.8042                0.00
+     7     1    0.4783             2643.94         2    0.4708    0.8042                0.00
+     8     1    0.4305             2643.94         2    0.4708    0.8042                0.00
+     9     1    0.3874             2687.67         1    0.3333    0.6667                0.00
+  iter stage     alpha             origObj     #frac   sumfrac      dist P  #flips      time
+    10     1    0.3487             2687.67         1    0.3333    0.6667                0.00
+    11     1    0.3138             3021.00         0    0.0000    0.0000                0.00
+>stats
+	found = 1
+	stage = 2
+	totalLpTime = 0.00203095
+	totalRoundingTime = 0.00027439
+	iterations = 11
+	time = 0.00357952
+	perturbationCnt = 0
+	restartCnt = 0
+>results
+	firstValue = 3597
+	firstIt = 11
+	firstTime = 0.00357218
+	lastValue = 3597
+	lastIt = 11
+	lastTime = 0.00357446
+Solution: =obj= 3597.00
+C157 = 1.00
+C163 = 1.00
+C165 = 1.00
+C167 = 1.00
+C170 = 1.00
+C172 = 1.00
+C174 = 1.00
+C176 = 1.00
+C177 = 1.00
+C178 = 1.00
+C179 = 1.00
+C180 = 1.00
+C182 = 1.00
+C183 = 1.00
+C184 = 1.00
+C185 = 1.00
+C186 = 1.00
+
+Propagators statistics (#prop called, #domain red):
+logic 0 0
+varbound 0 0
+cardinality 48 58
+knapsack 96 14
+linear 421 179
+
+
+*** The file linked to below contains the solution in MST and SOL formats ***

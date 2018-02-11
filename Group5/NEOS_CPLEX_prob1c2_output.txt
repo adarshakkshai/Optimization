@@ -1,0 +1,97 @@
+*************************************************************
+
+   NEOS Server Version 5.0
+   Job#     : 5576386
+   Password : XxCJOQlF
+   User     : None
+   Solver   : milp:scip:CPLEX
+   Start    : 2017-09-12 16:47:11
+   End      : 2017-09-12 16:47:17
+   Host     : sokrates.la.asu.edu
+
+*****LEVEL 0*****
+SCIP> solution status: optimal solution found
+objective value:                                    0
+x1                                                  1 	(obj:0)
+x2                                                  1 	(obj:0)
+x3                                                0.5 	(obj:0)
+x4                                                  1 	(obj:0)
+SCIP Status        : problem is solved [optimal solution found]
+
+*****LEVEL 1******
+NODE 1
+SCIP> solution status: optimal solution found
+objective value:                                    0
+x2                                                  1 	(obj:0)
+x4                                                0.5 	(obj:0)
+x5                                                  1 	(obj:0)
+x6                                                  1 	(obj:0)
+
+NODE 2
+SCIP> solution status: optimal solution found
+objective value:                                    0
+x1                                                  1 	(obj:0)
+x2                                                  1 	(obj:0)
+x3                                                  1 	(obj:0)
+x4                                                0.5 	(obj:0)
+
+*****LEVEL 2*****
+
+NODE 1
+objective value:                                    0
+x2                                                  1 	(obj:0)
+x3                                                  1 	(obj:0)
+x5                                                0.5 	(obj:0)
+x6                                                  1 	(obj:0)
+
+NODE 2
+objective value:                                    0
+x1                                                  1 	(obj:0)
+x3                                                  1 	(obj:0)
+x4                                                  1 	(obj:0)
+x6                                                0.5 	(obj:0)
+
+*****LEVEL 3*****
+
+NODE 1
+objective value:                                    0
+x1                                                0.5 	(obj:0)
+x2                                                0.5 	(obj:0)
+x3                                                  1 	(obj:0)
+x4                                                  1 	(obj:0)
+x5                                                0.5 	(obj:0)
+
+NODE 2
+objective value:                                    0
+x1                                                0.5 	(obj:0)
+x3                                                  1 	(obj:0)
+x4                                                  1 	(obj:0)
+x6                                                  1 	(obj:0)
+
+*****LEVEL 4*****
+
+NODE 1
+objective value:                                    0
+x3                                                  1 	(obj:0)
+x4                                                  1 	(obj:0)
+x5                                                0.5 	(obj:0)
+x6                                                  1 	(obj:0)
+
+*****LEVEL 5*****
+
+NODE 1
+objective value:                                    0
+x2                                                0.5 	(obj:0)
+x3                                                  1 	(obj:0)
+x4                                                  1 	(obj:0)
+x6                                                  1 	(obj:0)
+
+*****LEVEL 6*****
+
+NODE 1
+objective value:                                    1
+x7                                                  1 	(obj:1)
+x3                                                  1 	(obj:0)
+x4                                                  1 	(obj:0)
+x6                                                  1 	(obj:0)
+INTEGER SOLUTION!!!!!

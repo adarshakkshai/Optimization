@@ -1,0 +1,117 @@
+*************************************************************
+
+   NEOS Server Version 5.0
+   Job#     : 5563782
+   Password : uHvlIExG
+   User     : None
+   Solver   : milp:Gurobi:AMPL
+   Start    : 2017-09-06 08:28:30
+   End      : 2017-09-06 08:28:40
+   Host     : NEOS HTCondor Pool
+
+   Disclaimer:
+
+   This information is provided without any express or
+   implied warranty. In particular, there is no warranty
+   of any kind concerning the fitness of this
+   information  for any particular purpose.
+*************************************************************
+File exists
+
+You are using the solver gurobi_ampl.
+
+Checking ampl.mod for gurobi_options...
+
+Checking ampl.com for gurobi_options...
+
+Executing AMPL.
+
+processing data.
+
+processing commands.
+
+Executing on prod-exec-1.neos-server.org
+
+
+
+2 variables, all nonlinear
+
+1 constraint, all nonlinear; 2 nonzeros
+
+	1 inequality constraint
+
+1 nonlinear objective; 2 nonzeros.
+
+
+
+Gurobi 7.0.1: timelim=300
+
+threads=4
+
+outlev=1
+
+Optimize a model with 0 rows, 2 columns and 0 nonzeros
+
+Model has 2 quadratic objective terms
+
+Model has 1 quadratic constraint
+
+Variable types: 0 continuous, 2 integer (0 binary)
+
+Coefficient statistics:
+
+  Matrix range     [0e+00, 0e+00]
+
+  QMatrix range    [1e+00, 1e+00]
+
+  Objective range  [0e+00, 0e+00]
+
+  QObjective range [2e+00, 2e+00]
+
+  Bounds range     [1e+00, 2e+00]
+
+  RHS range        [0e+00, 0e+00]
+
+Presolve time: 0.00s
+
+Presolved: 4 rows, 6 columns, 10 nonzeros
+
+Variable types: 0 continuous, 6 integer (4 binary)
+
+Found heuristic solution: objective -1.0000000
+
+
+
+Root relaxation: infeasible, 0 iterations, 0.00 seconds
+
+
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+
+Thread count was 4 (of 64 available processors)
+
+
+
+Solution count 1: -1 
+
+Pool objective bound -1
+
+
+
+Optimal solution found (tolerance 1.00e-04)
+
+Best objective -1.000000000000e+00, best bound -1.000000000000e+00, gap 0.0000%
+
+Gurobi 7.0.1: optimal solution; objective -1
+
+No dual variables returned.
+
+obj = -1
+
+
+
+x = 0
+
+
+
+y = 1

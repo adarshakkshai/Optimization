@@ -1,0 +1,26 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2017 The MathWorks, Inc.
+                   R2017a (9.2.0.538062) 64-bit (glnxa64)
+                             February 23, 2017
+
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+>> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> 
+Local minimum found that satisfies the constraints.
+
+Optimization completed because the objective function is non-decreasing in 
+feasible directions, to within the default value of the optimality tolerance,
+and constraints are satisfied to within the default value of the constraint tolerance.
+
+
+
+>> Elapsed time is 989.874994 seconds.
+>> 
+obj =
+
+   9.9471e-14
+
+>> 

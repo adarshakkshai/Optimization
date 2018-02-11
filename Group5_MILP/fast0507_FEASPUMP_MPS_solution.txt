@@ -1,0 +1,282 @@
+*************************************************************
+
+   NEOS Server Version 5.0
+   Job#     : 5586524
+   Password : eAfPwrIk
+   User     : None
+   Solver   : milp:feaspump:MPS
+   Start    : 2017-09-17 22:53:45
+   End      : 2017-09-17 22:53:52
+   Host     : thales.la.asu.edu
+
+   Disclaimer:
+
+   This information is provided without any express or
+   implied warranty. In particular, there is no warranty
+   of any kind concerning the fitness of this
+   information  for any particular purpose.
+*************************************************************
+
+
+*** You chose the AB version of FP ***
+
+Registering SolutionTransformers...done
+Registering Var Rankers...done
+Registering LinearPropagatorFactories...done
+Registering VarBoundFactory...done
+Registering LogicFactory...done
+Output dir: ./tmp/mps
+>config
+	probName = mps
+	runName = default
+	presolve = 1
+	numThreads = 4
+	cpxVersion = 12070100
+	gitHash = d25e609-dirty
+	fpVersion = 2.2
+	printSol = 1
+	storeSol = 1
+>originalProblem
+	nvars = 63009
+	binaries = 63009
+	integers = 0
+	nrows = 507
+>presolvedProblem
+	hasPresolve = 1
+	emptyProblem = 0
+	offset = 16
+>presolvedProblem
+	nvars = 20479
+	binaries = 20479
+	integers = 0
+	nrows = 440
+>config
+	frac2int = propround
+	firstOptMethod = default
+	reOptMethod = default
+	timeLimit = 7200
+	pumpReduceIterLimit = -1
+	iterLimit = 10000
+	s1IterLimit = 5000
+	s1MaxMissedDecrease = 1000
+	maxMissedDecrease = 2000
+	maxRestarts = 5000
+	avgFlips = 20
+	integralityEps = 1e-05
+	seed = 120507
+	sigmaThr = 1e-06
+	optIterLimit = -1
+	reOptIterLimit = -1
+	alpha = 1
+	alphaFactor = 0.9
+	alphaDist = 0.005
+	doStage3 = 1
+	walksatPerturbe = 0
+	forceWalksat = 0
+	feasWalksat = 0
+	logPerturbation = 0
+	logDetails = 0
+	logIteration = 0
+	logTime = 0
+	logLP = 0
+>config
+	randomizedRounding = 1
+	logDetails = 0
+>config
+	ranker = FRAC
+	filterConstraints = 1
+>config
+	reverse = 0
+	rankNoise = 0.1
+	noiseAfter = 10
+>fpInit
+
+Propagators:
+logic 0
+varbound 0
+cardinality 440
+knapsack 0
+linear 0
+Filtered out 0
+	fixedCnt = 0
+	isBinary = 1
+	isPureInteger = 1
+CPXPARAM_TimeLimit                               7199.9999876690563
+CPXPARAM_Threads                                 4
+Parallel mode: deterministic, using up to 4 threads for concurrent optimization.
+Tried aggregator 1 time.
+No LP presolve or aggregator reductions.
+Presolve time = 0.01 sec. (11.49 ticks)
+
+Iteration log . . .
+Iteration:     1   Dual objective     =            17.000000
+Iteration:   144   Dual objective     =            64.000000
+Iteration:   266   Dual objective     =            93.333333
+Iteration:   405   Dual objective     =           118.833333
+Iteration:   514   Dual objective     =           128.833333
+Iteration:   623   Dual objective     =           129.818182
+Iteration:   729   Dual objective     =           132.117709
+Iteration:   837   Dual objective     =           152.945723
+Iteration:   943   Dual objective     =           156.269165
+Iteration:  1031   Dual objective     =           158.273629
+Iteration:  1135   Dual objective     =           159.743750
+Iteration:  1233   Dual objective     =           160.699200
+Iteration:  1317   Dual objective     =           162.534088
+Iteration:  1413   Dual objective     =           163.562451
+Iteration:  1504   Dual objective     =           164.646886
+relaxationTime = 0.281584
+relaxationObjValue = 156.146
+
+Barrier solved model.
+
+  iter stage     alpha             origObj     #frac   sumfrac      dist P  #flips      time
+     1     1    0.9000              157.52       156   34.3835   41.9250                0.53
+     2     1    0.8100              160.82        72   19.1053   22.7368                0.74
+     3     1    0.7290              167.50         3    1.5000    8.5000                0.96
+     4     1    0.6561              169.00         0    0.0000    0.0000                1.00
+>stats
+	found = 1
+	stage = 2
+	totalLpTime = 0.67917
+	totalRoundingTime = 0.0424882
+	iterations = 4
+	time = 1.0052
+	perturbationCnt = 0
+	restartCnt = 0
+>results
+	firstValue = 185
+	firstIt = 4
+	firstTime = 1.00509
+	lastValue = 185
+	lastIt = 4
+	lastTime = 1.00514
+Solution: =obj= 185.00
+x00246 = 1.00
+x00352 = 1.00
+x00582 = 1.00
+x00611 = 1.00
+x01393 = 1.00
+x01693 = 1.00
+x02010 = 1.00
+x02064 = 1.00
+x02326 = 1.00
+x02655 = 1.00
+x02760 = 1.00
+x02857 = 1.00
+x03022 = 1.00
+x03117 = 1.00
+x03155 = 1.00
+x03259 = 1.00
+x03458 = 1.00
+x05235 = 1.00
+x05891 = 1.00
+x06230 = 1.00
+x06596 = 1.00
+x06860 = 1.00
+x06883 = 1.00
+x07179 = 1.00
+x07280 = 1.00
+x07566 = 1.00
+x07855 = 1.00
+x08987 = 1.00
+x09262 = 1.00
+x09345 = 1.00
+x09964 = 1.00
+x10644 = 1.00
+x10684 = 1.00
+x10725 = 1.00
+x11077 = 1.00
+x11397 = 1.00
+x11594 = 1.00
+x11959 = 1.00
+x12130 = 1.00
+x12383 = 1.00
+x12496 = 1.00
+x12646 = 1.00
+x12877 = 1.00
+x13075 = 1.00
+x13298 = 1.00
+x14411 = 1.00
+x14452 = 1.00
+x15166 = 1.00
+x15199 = 1.00
+x15763 = 1.00
+x16592 = 1.00
+x17877 = 1.00
+x18132 = 1.00
+x18538 = 1.00
+x19940 = 1.00
+x20647 = 1.00
+x20668 = 1.00
+x20669 = 1.00
+x22382 = 1.00
+x23524 = 1.00
+x23623 = 1.00
+x24173 = 1.00
+x25974 = 1.00
+x27080 = 1.00
+x27524 = 1.00
+x27848 = 1.00
+x30733 = 1.00
+x30827 = 1.00
+x31066 = 1.00
+x33190 = 1.00
+x34327 = 1.00
+x38063 = 1.00
+x38225 = 1.00
+x38382 = 1.00
+x39025 = 1.00
+x39077 = 1.00
+x39709 = 1.00
+x40633 = 1.00
+x40832 = 1.00
+x40833 = 1.00
+x41129 = 1.00
+x41165 = 1.00
+x41196 = 1.00
+x41744 = 1.00
+x42315 = 1.00
+x42658 = 1.00
+x43868 = 1.00
+x44471 = 1.00
+x44804 = 1.00
+x44977 = 1.00
+x45480 = 1.00
+x45717 = 1.00
+x47885 = 1.00
+x48277 = 1.00
+x48301 = 1.00
+x48462 = 1.00
+x48923 = 1.00
+x49201 = 1.00
+x49228 = 1.00
+x51279 = 1.00
+x53276 = 1.00
+x55661 = 1.00
+x55671 = 1.00
+x55675 = 1.00
+x55760 = 1.00
+x56144 = 1.00
+x56642 = 1.00
+x56704 = 1.00
+x56893 = 1.00
+x56965 = 1.00
+x57102 = 1.00
+x57903 = 1.00
+x57906 = 1.00
+x57922 = 1.00
+x60233 = 1.00
+x61650 = 1.00
+x62336 = 1.00
+x62366 = 1.00
+x62404 = 1.00
+
+Propagators statistics (#prop called, #domain red):
+logic 0 0
+varbound 0 0
+cardinality 1705 225
+knapsack 0 0
+linear 0 0
+
+
+*** The file linked to below contains the solution in MST and SOL formats ***

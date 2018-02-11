@@ -1,0 +1,173 @@
+*************************************************************
+
+   NEOS Server Version 5.0
+   Job#     : 5676777
+   Password : xuoGmqXC
+   User     : None
+   Solver   : go:Couenne:AMPL
+   Start    : 2017-11-01 15:12:26
+   End      : 2017-11-01 15:12:46
+   Host     : NEOS HTCondor Pool
+
+   Disclaimer:
+
+   This information is provided without any express or
+   implied warranty. In particular, there is no warranty
+   of any kind concerning the fitness of this
+   information  for any particular purpose.
+*************************************************************
+File exists
+
+You are using the solver couenne.
+
+Executing AMPL.
+
+processing data.
+
+processing commands.
+
+Executing on prod-exec-4.neos-server.org
+
+
+
+8 variables:
+
+	6 nonlinear variables
+
+	2 linear variables
+
+7 constraints; 25 nonzeros
+
+	4 nonlinear constraints
+
+	3 linear constraints
+
+	6 equality constraints
+
+	1 inequality constraint
+
+1 nonlinear objective; 4 nonzeros.
+
+
+
+Couenne 0.5.6 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+
+Mailing list: couenne@list.coin-or.org
+
+Instructions: http://www.coin-or.org/Couenne
+
+couenne: 
+
+ANALYSIS TEST: NLP0012I 
+
+              Num      Status      Obj             It       time                 Location
+
+NLP0014I             1         OPT -9.6320562       73 0.034995
+
+Couenne: new cutoff value -9.6320562235e+00 (0.037994 seconds)
+
+Loaded instance "/var/lib/condor/execute/dir_1111309/neos-1111316/at1111318.nl"
+
+Constraints:            7
+
+Variables:              8 (0 integer)
+
+Auxiliaries:            9 (0 integer)
+
+
+
+Coin0506I Presolve 18 (-3) rows, 8 (-9) columns and 43 (-8) elements
+
+Clp0006I 0  Obj -9.630993 Primal inf 1.491578 (3) Dual inf 2.999999 (1)
+
+Clp0006I 10  Obj -12.6875
+
+Clp0000I Optimal - objective value -12.6875
+
+Clp0032I Optimal objective -12.6875 - 10 iterations time 0.002, Presolve 0.00
+
+Clp0000I Optimal - objective value -12.6875
+
+Couenne: new cutoff value -1.2678710938e+01 (0.038994 seconds)
+
+Cbc0012I Integer solution of -9.6320562 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+
+NLP Heuristic: NLP0014I             2         OPT -11.993637       23 0.009998
+
+no solution.
+
+Clp0000I Optimal - objective value -12.6875
+
+Optimality Based BT: 1 improved bounds
+
+Probing: 2 improved bounds
+
+NLP Heuristic: solution found, obj. -12.6787
+
+Cbc0012I Integer solution of -12.678711 found by Couenne Rounding NLP after 4 iterations and 0 nodes (0.03 seconds)
+
+Cbc0031I 1 added rows had average density of 2
+
+Cbc0013I At root node, 1 cuts changed objective from -12.6875 to -12.678711 in 3 passes
+
+Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 2 row cuts average 2.0 elements, 13 column cuts (13 active)
+
+Cbc0001I Search completed - best objective -12.67871093756885, took 4 iterations and 0 nodes (0.03 seconds)
+
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+
+
+
+ 	"Finished"
+
+
+
+Linearization cuts added at root node:         21
+
+Linearization cuts added in total:             21  (separation time: 0s)
+
+Total solve time:                        0.030995s (0.030995s in branch-and-bound)
+
+Lower bound:                             -12.6787
+
+Upper bound:                             -12.6787  (gap: 0.00%)
+
+Branch-and-bound nodes:                         0
+
+
+
+couenne: Optimal
+
+obj = -12.6787
+
+
+
+x1 = 8.29779e-06
+
+
+
+x2 = 2
+
+
+
+y1 = 1.875
+
+
+
+y2 = 0.90625
+
+
+
+lambda1 = 0
+
+
+
+lambda2 = 1.25
+
+
+
+b1 = 4.15623
+
+
+
+b2 = 8.88178e-16

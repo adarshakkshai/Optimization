@@ -1,0 +1,211 @@
+*************************************************************
+
+   NEOS Server Version 5.0
+   Job#     : 5563798
+   Password : ZqFchMnN
+   User     : None
+   Solver   : minco:Knitro:AMPL
+   Start    : 2017-09-06 08:32:21
+   End      : 2017-09-06 08:32:31
+   Host     : NEOS HTCondor Pool
+
+   Disclaimer:
+
+   This information is provided without any express or
+   implied warranty. In particular, there is no warranty
+   of any kind concerning the fitness of this
+   information  for any particular purpose.
+*************************************************************
+File exists
+
+You are using the solver knitro.
+
+Executing AMPL.
+
+processing data.
+
+processing commands.
+
+Executing on prod-exec-1.neos-server.org
+
+
+
+2 variables, all nonlinear
+
+1 constraint, all nonlinear; 2 nonzeros
+
+	1 inequality constraint
+
+1 nonlinear objective; 2 nonzeros.
+
+
+
+Artelys Knitro 10.2.0: ms_enable=1
+
+Artelys Knitro: Number of threads = 1
+
+
+
+=======================================
+
+           Academic License
+
+       (NOT FOR COMMERCIAL USE)
+
+         Artelys Knitro 10.2.0
+
+=======================================
+
+
+
+datacheck:               0
+
+hessian_no_f:            1
+
+ms_enable:               1
+
+ms_maxsolves:            0
+
+par_concurrent_evals:    0
+
+Knitro changing mip_method from AUTO to 1.
+
+Knitro changing mip_rootalg from AUTO to 1.
+
+Knitro changing mip_lpalg from AUTO to 3.
+
+Knitro changing mip_branchrule from AUTO to 2.
+
+Knitro changing mip_selectrule from AUTO to 2.
+
+Knitro changing mip_rounding from AUTO to 3.
+
+Knitro changing mip_heuristic from AUTO to 2.
+
+Knitro changing mip_pseudoinit from AUTO to 1.
+
+
+
+Problem Characteristics
+
+-----------------------
+
+Objective goal:  Minimize
+
+Number of variables:                     2
+
+    bounded below:                       2
+
+    bounded above:                       0
+
+    bounded below and above:             0
+
+    fixed:                               0
+
+    free:                                0
+
+Number of binary variables:              0
+
+Number of integer variables:             2
+
+Number of constraints:                   1
+
+    linear equalities:                   0
+
+    nonlinear equalities:                0
+
+    linear inequalities:                 0
+
+    nonlinear inequalities:              1
+
+    range:                               0
+
+Number of nonzeros in Jacobian:          2
+
+Number of nonzeros in Hessian:           2
+
+
+
+No start point provided -- Knitro computing one.
+
+
+
+Knitro detected 0 GUB constraints
+
+Knitro derived 0 knapsack covers after examining 0 constraints
+
+Knitro solving root node relaxation
+
+Knitro searching for integer feasible point using heuristic
+
+   iter =      1: Iinf =      1, FeasError =   2.679e-01
+
+   iter =      2: Iinf =      1, FeasError =   1.586e+00
+
+*  iter =      3: Iinf =      1, FeasError =   0.000e+00, Obj =   0.000e+00
+
+Knitro found integer feasible point in 3 heuristic iterations
+
+Knitro MIP using Branch and Bound method
+
+
+
+   Node    Left    Iinf     Objective         Best Relaxatn  Best Incumbent
+
+  ------  ------  ------  --------------     --------------  --------------
+
+       1       0       1   -3.000000e+00      -3.000000e+00    0.000000e+00
+
+*      2       1       0   -1.000000e+00  f   -3.000000e+00   -1.000000e+00
+
+       3       0           -3.614914e+00      -1.000000e+00   -1.000000e+00
+
+
+
+EXIT: Optimal solution found.
+
+
+
+Final Statistics for MIP
+
+------------------------
+
+Final objective value               =  -1.00000000000000e+00
+
+Final integrality gap (abs / rel)   =  0.00e+00 /   0.00e+00 ( 0.00%)
+
+# of nodes processed                =        3
+
+# of subproblems processed          =        7
+
+Total program time (secs)           =       1.15049 (     1.150 CPU time)
+
+Time spent in evaluations (secs)    =       0.19432
+
+
+
+===========================================================================
+
+
+
+Knitro 10.2.0: Locally optimal or satisfactory solution.
+
+objective -1; integrality gap 0
+
+3 nodes; 7 subproblem solves
+
+
+
+suffix incumbent OUT;
+
+suffix relaxbnd OUT;
+
+obj = -1
+
+
+
+x = 0
+
+
+
+y = -1

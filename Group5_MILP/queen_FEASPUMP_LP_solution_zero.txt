@@ -1,0 +1,142 @@
+*************************************************************
+
+   NEOS Server Version 5.0
+   Job#     : 5586517
+   Password : GyhWCJKS
+   User     : None
+   Solver   : milp:feaspump:CPLEX
+   Start    : 2017-09-17 22:40:36
+   End      : 2017-09-17 22:40:38
+   Host     : thales.la.asu.edu
+
+   Disclaimer:
+
+   This information is provided without any express or
+   implied warranty. In particular, there is no warranty
+   of any kind concerning the fitness of this
+   information  for any particular purpose.
+*************************************************************
+
+
+*** You chose the AB version of FP ***
+
+Registering SolutionTransformers...done
+Registering Var Rankers...done
+Registering LinearPropagatorFactories...done
+Registering VarBoundFactory...done
+Registering LogicFactory...done
+Output dir: ./tmp/sample
+>config
+	probName = sample
+	runName = default
+	presolve = 1
+	numThreads = 4
+	cpxVersion = 12070100
+	gitHash = d25e609-dirty
+	fpVersion = 2.2
+	printSol = 1
+	storeSol = 1
+>originalProblem
+	nvars = 64
+	binaries = 64
+	integers = 0
+	nrows = 42
+>presolvedProblem
+	hasPresolve = 1
+	emptyProblem = 0
+	offset = 0
+>presolvedProblem
+	nvars = 64
+	binaries = 64
+	integers = 0
+	nrows = 42
+>config
+	frac2int = propround
+	firstOptMethod = default
+	reOptMethod = default
+	timeLimit = 7200
+	pumpReduceIterLimit = -1
+	iterLimit = 10000
+	s1IterLimit = 5000
+	s1MaxMissedDecrease = 1000
+	maxMissedDecrease = 2000
+	maxRestarts = 5000
+	avgFlips = 20
+	integralityEps = 1e-05
+	seed = 120507
+	sigmaThr = 1e-06
+	optIterLimit = -1
+	reOptIterLimit = -1
+	alpha = 1
+	alphaFactor = 0.9
+	alphaDist = 0.005
+	doStage3 = 1
+	walksatPerturbe = 0
+	forceWalksat = 0
+	feasWalksat = 0
+	logPerturbation = 0
+	logDetails = 0
+	logIteration = 0
+	logTime = 0
+	logLP = 0
+>config
+	randomizedRounding = 1
+	logDetails = 0
+>config
+	ranker = FRAC
+	filterConstraints = 1
+>config
+	reverse = 0
+	rankNoise = 0.1
+	noiseAfter = 10
+>fpInit
+
+Propagators:
+logic 0
+varbound 0
+cardinality 42
+knapsack 0
+linear 0
+Filtered out 0
+	fixedCnt = 0
+	isBinary = 1
+	isPureInteger = 1
+CPXPARAM_TimeLimit                               7199.9999923110008
+CPXPARAM_Threads                                 4
+Tried aggregator 1 time.
+No LP presolve or aggregator reductions.
+Presolve time = 0.00 sec. (0.03 ticks)
+
+Iteration log . . .
+Iteration:     1   Dual objective     =            57.000000
+relaxationTime = 0.000571117
+relaxationObjValue = 8
+  iter stage     alpha             origObj     #frac   sumfrac      dist P  #flips      time
+     1     1    0.9000                0.00         0    0.0000    6.0000                0.00
+>stats
+	found = 1
+	stage = 2
+	totalLpTime = 0.000228716
+	totalRoundingTime = 3.2522e-05
+	iterations = 1
+	time = 0.000914388
+	perturbationCnt = 0
+	restartCnt = 0
+>results
+	firstValue = -0
+	firstIt = 1
+	firstTime = 0.000910344
+	lastValue = 0
+	lastIt = 1
+	lastTime = 0.000911188
+Solution: =obj= 0.00
+
+Propagators statistics (#prop called, #domain red):
+logic 0 0
+varbound 0 0
+cardinality 84 20
+knapsack 0 0
+linear 0 0
+
+
+*** The file linked to below contains the solution in MST and SOL formats ***

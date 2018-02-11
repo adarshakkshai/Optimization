@@ -1,0 +1,235 @@
+*************************************************************
+
+   NEOS Server Version 5.0
+   Job#     : 5562727
+   Password : imWMhpPc
+   User     : None
+   Solver   : minco:Knitro:AMPL
+   Start    : 2017-09-05 10:48:33
+   End      : 2017-09-05 10:48:48
+   Host     : NEOS HTCondor Pool
+
+   Disclaimer:
+
+   This information is provided without any express or
+   implied warranty. In particular, there is no warranty
+   of any kind concerning the fitness of this
+   information  for any particular purpose.
+*************************************************************
+File exists
+
+You are using the solver knitro.
+
+Executing AMPL.
+
+processing data.
+
+processing commands.
+
+Executing on prod-exec-2.neos-server.org
+
+
+
+2 variables, all nonlinear
+
+1 constraint, all nonlinear; 2 nonzeros
+
+	1 inequality constraint
+
+1 nonlinear objective; 2 nonzeros.
+
+
+
+Artelys Knitro 10.2.0: ms_enable=1
+
+Artelys Knitro: Number of threads = 1
+
+
+
+=======================================
+
+           Academic License
+
+       (NOT FOR COMMERCIAL USE)
+
+         Artelys Knitro 10.2.0
+
+=======================================
+
+
+
+No start point provided -- Knitro computing one.
+
+
+
+Knitro presolve eliminated 0 variables and 0 constraints.
+
+
+
+datacheck:               0
+
+hessian_no_f:            1
+
+ms_enable:               1
+
+ms_maxsolves:            0
+
+par_concurrent_evals:    0
+
+
+
+Problem Characteristics                    ( Presolved)
+
+-----------------------
+
+Objective goal:  Minimize
+
+Number of variables:                     2 (         2)
+
+    bounded below:                       2 (         2)
+
+    bounded above:                       0 (         0)
+
+    bounded below and above:             0 (         0)
+
+    fixed:                               0 (         0)
+
+    free:                                0 (         0)
+
+Number of constraints:                   1 (         1)
+
+    linear equalities:                   0 (         0)
+
+    nonlinear equalities:                0 (         0)
+
+    linear inequalities:                 0 (         0)
+
+    nonlinear inequalities:              1 (         1)
+
+    range:                               0 (         0)
+
+Number of nonzeros in Jacobian:          2 (         2)
+
+Number of nonzeros in Hessian:           2 (         2)
+
+
+
+Multistart will generate 20 start points as follows:
+
+      0 variables will vary within their upper and lower bounds
+
+      2 variables will vary over a range of 1000
+
+
+
+Knitro multistart will run with 1 thread.
+
+
+
+ Solve #  ThreadID  Status     Objective     FeasError   OptError   Real Time 
+
+--------  --------  ------  --------------  ----------  ---------- ----------
+
+       1         0       0   -3.000000e+00   2.189e-10   2.189e-10      0.000
+
+       2         0       0   -3.000000e+00   1.031e-10   3.958e-11      0.000
+
+       3         0       0   -3.000000e+00   3.699e-07   4.507e-08      0.000
+
+       4         0       0   -3.000000e+00   1.510e-08   3.682e-09      0.000
+
+       5         0       0   -1.000000e+00   0.000e+00   2.228e-08      0.000
+
+       6         0       0   -1.000000e+00   0.000e+00   1.840e-10      0.000
+
+       7         0       0   -1.000000e+00   0.000e+00   5.000e-09      0.000
+
+       8         0       0   -3.000000e+00   3.282e-07   5.258e-08      0.001
+
+       9         0       0   -3.000000e+00   4.547e-07   5.474e-08      0.000
+
+      10         0       0   -1.000000e+00   0.000e+00   2.940e-07      0.000
+
+      11         0       0   -1.000000e+00   0.000e+00   5.905e-08      0.000
+
+      12         0       0   -3.000000e+00   2.914e-08   4.733e-09      0.000
+
+      13         0       0   -3.000000e+00   1.123e-10   1.592e-11      0.000
+
+      14         0       0   -3.000000e+00   9.704e-11   2.002e-11      0.000
+
+      15         0       0   -3.000000e+00   2.511e-07   2.511e-07      0.000
+
+      16         0       0   -1.000000e+00   0.000e+00   1.810e-10      0.000
+
+      17         0       0   -3.000000e+00   4.852e-09   1.258e-09      0.001
+
+      18         0       0   -3.000000e+00   1.534e-09   1.596e-10      0.001
+
+      19         0       0   -3.000000e+00   4.267e-10   7.258e-11      0.000
+
+      20         0       0   -3.000000e+00   1.495e-08   4.316e-09      0.000
+
+Multistart stopping, reached ms_maxsolves limit.
+
+
+
+MULTISTART: Best locally optimal solution is returned.
+
+EXIT: Locally optimal solution found.
+
+
+
+Final Statistics
+
+----------------
+
+Final objective value               =  -3.00000045466844e+00
+
+Final feasibility error (abs / rel) =   4.55e-07 / 2.64e-12
+
+Final optimality error  (abs / rel) =   5.47e-08 / 5.47e-08
+
+# of iterations                     =        182 
+
+# of CG iterations                  =          7 
+
+# of function evaluations           =        222
+
+# of gradient evaluations           =        202
+
+# of Hessian evaluations            =        182
+
+Total program time (secs)           =       0.00945 (     0.009 CPU time)
+
+
+
+===============================================================================
+
+
+
+Knitro 10.2.0: Locally optimal or satisfactory solution.
+
+objective -3.000000455; feasibility error 4.55e-07
+
+182 iterations; 222 function evaluations
+
+
+
+suffix feaserror OUT;
+
+suffix opterror OUT;
+
+suffix numfcevals OUT;
+
+suffix numiters OUT;
+
+obj = -3
+
+
+
+x = 2.34256e-10
+
+
+
+y = 1.73205

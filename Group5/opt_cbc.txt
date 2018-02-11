@@ -1,0 +1,7 @@
+option cbc_options 'cuts=Off preprocess=Off heuristics=Off';
+solve;
+display n;
+display k;
+display x;
+
+

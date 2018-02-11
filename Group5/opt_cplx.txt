@@ -1,0 +1,44 @@
+option cplex_options 'cutstats=1 disjcuts=-1 flowcuts=-1 flowpathcuts=-1 fraccuts=-1 gubcuts=-1 impliedcuts=-1 localimpliedcuts=-1 mcfcuts=-1 cliques=-1 covers=-1 mipdisplay=1 mircuts=-1 zerohalfcuts=-1 splitcuts=-1 mipcuts=-1 mipsearch=1 mipstartvalue=0 nodesel=0 nodesel=1 prepass=0 prerelax=0 presolve=0 presolvenode=-1 priorities=0 probe=-1 repeatpresolve=0 symmetry=0 varsel=-1 coeffreduce=0';
+
+solve;
+display x; 
+
+
+
+##########################################################################
+####These describe what each option does###################################
+###########################################################################
+#option cplex_options 'cutpass=-1'; 		#sets the number of cuts to zero
+#option cplex_options 'coeffreduce=0';	#do not use coefficient reduction when preprocessing MIPS
+#option cplex_options 'cutstats=1';		#display the number and kinds of cuts performed (should be no cuts)
+#option cplex_options 'disjcuts=-1';		#do not generate MIP disjunctive cuts
+#option cplex_options 'flowcuts=-1'; 	#do not use flow cuts when solving MIPs
+#option cplex_options 'flowpathcuts=-1';	#do not generate MIP flow-path cuts
+#option cplex_options 'fraccand=0';		#Limit on number of candidate variables when generating Gomory cuts for MIP problems
+#option cplex_options 'fraccuts=-1';		#do not generate MIP fractional Gomory cuts
+#option cplex_options 'gubcuts=-1';		#do not use GUB cuts in solving MIPs
+#option cplex_options 'impliedcuts=-1';	#do not use implied cuts in solving MIPs
+#option cplex_options 'localimpliedcuts=-1';	#do not generate locally valid implied bound cuts for MIPs
+#option cplex_options 'mcfcuts=-1';		#do not use multi-commodity flow cuts
+#option cplex_options 'cliques=-1';		#do not use clique cuts in solving MIPs
+#option cplex_options 'covers=-1';		#do not use cover cuts in MIPs
+#option cplex_options 'mipcuts=-1';		#turns off all cuts
+#option cplex_options 'mipdisplay=1';	#display branch-and-bound information at each integer feasible solution
+#option cplex_options 'mipsearch=1';		#traditional branch-and-cut strategy for MIPs
+#option cplex_options 'mipstartvalue=0';	#do not use initial guesses in problems with integer variables
+#option cplex_options 'mircuts=-1';		#do not generate MIP rounding cuts
+#option cplex_options 'nodesel=0';		#depth first branch and bound
+#option cplex_options 'nodesel=1';		#breadth first branch and bound
+#option cplex_options 'prepass=0';		#limit on number of CPLEX presolve passes
+#option cplex_options 'prerelax=0';		#do not use CPLEXs presolve on the initial LP relaxation of a MIP
+#option cplex_options 'presolve=0';		#do not run CPLEXs presolve algorithm
+#option cplex_options 'presolvenode=-1';	#do not run CPLEXs presolve at each node of the branch and bound tree
+#option cplex_options 'priorities=0';	#do not consider priorities for MIP branching
+#option cplex_options 'probe=-1';		#do not do variable probing when solving MIPs
+#option cplex_options 'repeatpresolve=0';	#do not repeat CPLEX's presolve at MIP nodes
+#option cplex_options 'splitcuts=-1';	#do not use lift-and-project cuts on MIPs
+#option cplex_options 'symmetry=0';		#do not break symmetry during preprocessing of MIPs
+#option cplex_options 'varsel=-1';		#branch on variable with smallest integer infeasibility
+#option cplex_options 'zerohalfcuts=-1';	#do not generate zero-half cuts for MIPs
+
+

@@ -1,0 +1,230 @@
+##intial points x = (5,-4) and y = (3,-1)
+
+
+*************************************************************
+
+   NEOS Server Version 5.0
+   Job#     : 5676795
+   Password : QYaJvwFU
+   User     : None
+   Solver   : nco:Knitro:AMPL
+   Start    : 2017-11-01 15:20:53
+   End      : 2017-11-01 15:20:58
+   Host     : NEOS HTCondor Pool
+
+   Disclaimer:
+
+   This information is provided without any express or
+   implied warranty. In particular, there is no warranty
+   of any kind concerning the fitness of this
+   information  for any particular purpose.
+*************************************************************
+File exists
+
+You are using the solver knitro.
+
+Executing AMPL.
+
+processing data.
+
+processing commands.
+
+Executing on prod-exec-4.neos-server.org
+
+
+
+8 variables:
+
+	6 nonlinear variables
+
+	2 linear variables
+
+7 constraints; 25 nonzeros
+
+	4 nonlinear constraints
+
+	3 linear constraints
+
+	6 equality constraints
+
+	1 inequality constraint
+
+1 nonlinear objective; 4 nonzeros.
+
+
+
+Artelys Knitro 10.2.0: Artelys Knitro: Number of threads = 1
+
+
+
+=======================================
+
+           Academic License
+
+       (NOT FOR COMMERCIAL USE)
+
+         Artelys Knitro 10.2.0
+
+=======================================
+
+
+
+Knitro presolve eliminated 0 variables and 0 constraints.
+
+
+
+datacheck:               0
+
+hessian_no_f:            1
+
+par_concurrent_evals:    0
+
+Knitro changing algorithm from AUTO to 1.
+
+Knitro changing bar_initpt from AUTO to 3.
+
+Knitro changing bar_murule from AUTO to 4.
+
+Knitro changing bar_penaltycons from AUTO to 1.
+
+Knitro changing bar_penaltyrule from AUTO to 2.
+
+Knitro changing bar_switchrule from AUTO to 2.
+
+Knitro changing linesearch from AUTO to 1.
+
+Knitro changing linsolver from AUTO to 2.
+
+Knitro shifted start point to satisfy presolved bounds (6 variables).
+
+
+
+Problem Characteristics                    ( Presolved)
+
+-----------------------
+
+Objective goal:  Minimize
+
+Number of variables:                     8 (         8)
+
+    bounded below:                       8 (         8)
+
+    bounded above:                       0 (         0)
+
+    bounded below and above:             0 (         0)
+
+    fixed:                               0 (         0)
+
+    free:                                0 (         0)
+
+Number of constraints:                   7 (         7)
+
+    linear equalities:                   3 (         3)
+
+    nonlinear equalities:                3 (         3)
+
+    linear inequalities:                 0 (         0)
+
+    nonlinear inequalities:              1 (         1)
+
+    range:                               0 (         0)
+
+Number of nonzeros in Jacobian:         25 (        25)
+
+Number of nonzeros in Hessian:          10 (        10)
+
+
+
+  Iter      Objective      FeasError   OptError    ||Step||    CGits 
+
+--------  --------------  ----------  ----------  ----------  -------
+
+       0   -3.898990e+01   2.298e+01
+
+       8   -1.267871e+01   1.044e-05   3.510e-06   5.071e-03        0
+
+
+
+EXIT: Locally optimal solution found.
+
+
+
+Final Statistics
+
+----------------
+
+Final objective value               =  -1.26787133783625e+01
+
+Final feasibility error (abs / rel) =   1.04e-05 / 4.54e-07
+
+Final optimality error  (abs / rel) =   3.51e-06 / 8.77e-07
+
+# of iterations                     =          8 
+
+# of CG iterations                  =          0 
+
+# of function evaluations           =         10
+
+# of gradient evaluations           =         10
+
+# of Hessian evaluations            =          8
+
+Total program time (secs)           =       0.00100 (     0.001 CPU time)
+
+Time spent in evaluations (secs)    =       0.00005
+
+
+
+===============================================================================
+
+
+
+Knitro 10.2.0: Locally optimal or satisfactory solution.
+
+objective -12.67871338; feasibility error 1.04e-05
+
+8 iterations; 10 function evaluations
+
+
+
+suffix feaserror OUT;
+
+suffix opterror OUT;
+
+suffix numfcevals OUT;
+
+suffix numiters OUT;
+
+obj = -12.6787
+
+
+
+x1 = 0.000987362
+
+
+
+x2 = 2
+
+
+
+y1 = 1.875
+
+
+
+y2 = 0.90625
+
+
+
+lambda1 = 1.20221e-07
+
+
+
+lambda2 = 1.25
+
+
+
+b1 = 4.15427
+
+
+
+b2 = 2.60664e-10

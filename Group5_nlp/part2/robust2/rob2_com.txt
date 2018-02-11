@@ -1,0 +1,14 @@
+solve;
+display obj;
+display x1;
+display x2;
+display y11;
+display y12;
+display y21;
+display y22;
+display z11;
+display z12;
+display z21;
+display z22;
+display omega1;
+

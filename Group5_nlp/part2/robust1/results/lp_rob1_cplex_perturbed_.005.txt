@@ -1,0 +1,75 @@
+*************************************************************
+
+   NEOS Server Version 5.0
+   Job#     : 5675225
+   Password : bSrkDViG
+   User     : None
+   Solver   : lp:CPLEX:AMPL
+   Start    : 2017-10-31 18:40:59
+   End      : 2017-10-31 18:41:19
+   Host     : NEOS HTCondor Pool
+
+   Disclaimer:
+
+   This information is provided without any express or
+   implied warranty. In particular, there is no warranty
+   of any kind concerning the fitness of this
+   information  for any particular purpose.
+*************************************************************
+File exists
+
+You are using the solver cplexamp.
+
+Checking ampl.mod for cplex_options...
+
+Checking ampl.com for cplex_options...
+
+Executing AMPL.
+
+processing data.
+
+processing commands.
+
+Executing on prod-exec-1.neos-server.org
+
+
+
+Presolve eliminates 2 constraints.
+
+Adjusted problem:
+
+4 variables, all linear
+
+4 constraints, all linear; 12 nonzeros
+
+	4 inequality constraints
+
+1 linear objective; 2 nonzeros.
+
+
+
+CPLEX 12.7.0.0: timelimit=300
+
+threads=4
+
+CPLEX 12.7.0.0: optimal solution; objective 17114.42786
+
+2 dual simplex iterations (0 in phase I)
+
+obj = 17114.4
+
+
+
+x1 = 39.801
+
+
+
+x2 = 159.204
+
+
+
+y1 = 39.801
+
+
+
+y2 = 159.204

@@ -1,0 +1,5 @@
+option knitro_options "ms_enable=1";
+solve;
+display obj;
+display x;
+display y;

@@ -1,0 +1,6 @@
+solve;
+display obj;
+display x1;
+display x2;
+display y1;
+display y2;

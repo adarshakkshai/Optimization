@@ -1,0 +1,56 @@
+
+Log started (V12.7.1.0) Tue Sep  5 17:44:16 2017
+
+New value for level of mixed integer node display: 2
+
+Log started (V12.7.1.0) Tue Sep  5 17:47:56 2017
+
+New value for level of mixed integer node display: 2
+
+Problem 'conv1.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+New value for type of solution CPLEX will attempt to compute: 3
+CPXPARAM_Read_APIEncoding                        "UTF-8"
+CPXPARAM_OptimalityTarget                        3
+Found incumbent of value 0.000000 after 0.00 sec. (0.00 ticks)
+Warning:  Non-integral bounds for integer variables rounded.
+Tried aggregator 1 time.
+Reduced MIQP has 1 rows, 3 columns, and 2 nonzeros.
+Reduced MIQP has 0 binaries, 2 generals, 0 SOSs, and 0 indicators.
+Reduced MIQP objective Q matrix has 2 nonzeros.
+Presolve time = 0.00 sec. (0.00 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 24 threads.
+Root relaxation solution time = 0.00 sec. (0.00 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            0.0000       -9.0000              --- 
+*     0     0      integral     0       -9.0000       -9.0000        0    0.00%
+      0     0        cutoff             -9.0000       -9.0000        0    0.00%
+Elapsed time = 0.00 sec. (0.01 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.01 ticks)
+Parallel b&c, 24 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.01 ticks)
+
+Solution pool: 2 solutions saved.
+
+MIP - Integer optimal solution:  Objective = -9.0000000000e+00
+Solution time =    0.01 sec.  Iterations = 0  Nodes = 0
+Deterministic time = 0.01 ticks  (2.06 ticks/sec)
+
+
+Incumbent solution
+The variable 'x' is 0.
+
+Incumbent solution
+Variable Name           Solution Value
+y                            -3.000000

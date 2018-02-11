@@ -1,0 +1,33 @@
+*************************************************************
+
+   NEOS Server Version 5.0
+   Job#     : 5586501
+   Password : UuWsJSEf
+   User     : None
+   Solver   : milp:proxy:MPS
+   Start    : 2017-09-17 22:04:52
+   End      : 2017-09-17 22:04:58
+   Host     : sokrates.la.asu.edu
+
+   Disclaimer:
+
+   This information is provided without any express or
+   implied warranty. In particular, there is no warranty
+   of any kind concerning the fitness of this
+   information  for any particular purpose.
+*************************************************************
+
+First solution -->                      value        3597.00000000; t.     0.00
+* it    1: cutoff        3593.00000000; value        3347.00000000; t.     0.01; nod      0; dist    1
+* it    2: cutoff        3343.00000000; value        3302.00000000; t.     0.02; nod      0; dist    3
+* it    3: cutoff        3298.00000000; value        3188.00000000; t.     0.11; nod      0; dist    4
+* it    4: cutoff        3184.00000000; value        3164.00000000; t.     0.18; nod      0; dist    4
+* it    5: cutoff        3160.00000000; value        3089.00000000; t.     0.19; nod      0; dist    2
+* it    6: cutoff        3085.00000000; INFEASIBLE
+
+
+Done: best value         3089.00000000 after     0.26 sec.s
+
+
+
+*** The file linked to below contains the solution in MST and SOL formats ***

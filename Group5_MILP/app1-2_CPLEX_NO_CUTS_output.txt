@@ -1,0 +1,125 @@
+
+Log started (V12.7.1.0) Mon Sep 18 11:56:39 2017
+
+No problem exists.
+No problem exists.
+Current setting for bqp 0
+Current setting for cliques 0
+Current setting for covers 0
+Current setting for disjunctive 0
+Current setting for flowcovers 0
+Current setting for gomory 0
+Current setting for gubcovers 0
+Current setting for implied 0
+Current setting for liftproj 0
+Current setting for localimplied 0
+Current setting for mcfcut 0
+Current setting for mircut 0
+Current setting for pathcut 0
+Current setting for rlt 0
+Current setting for zerohalfcut 0
+New value for type of BQP cut generation (only applies to non-convex models solved to global optimality): -1
+New value for type of clique cut generation: -1
+New value for type of cover cut generation: -1
+New value for type of disjunctive cut generation: -1
+New value for type of flow cover cut generation: -1
+New value for type of Gomory fractional cut generation: -1
+New value for type of GUB cover cut generation: -1
+New value for type of implied bound cut generation: -1
+New value for type of Lift and Project cut generation: -1
+New value for type of local implied bound cut generation: -1
+New value for type of MCF cut generation: -1
+New value for type of mixed integer rounding cut generation: -1
+New value for type of flow path cut generation: -1
+New value for type of RLT cut generation (only applies to non-convex models solved to global optimality): -1
+New value for type of zero-half cut generation: -1
+
+Selected objective sense:  MINIMIZE
+Selected objective  name:  OBJROW
+Selected RHS        name:  RHS
+Selected bound      name:  Bound
+
+Problem 'app1-2.mps.gz' read.
+Read time = 0.18 sec. (22.50 ticks)
+CPXPARAM_Read_APIEncoding                        "UTF-8"
+CPXPARAM_MIP_Cuts_Cliques                        -1
+CPXPARAM_MIP_Cuts_Covers                         -1
+CPXPARAM_MIP_Cuts_FlowCovers                     -1
+CPXPARAM_MIP_Cuts_Implied                        -1
+CPXPARAM_MIP_Cuts_GUBCovers                      -1
+CPXPARAM_MIP_Cuts_Gomory                         -1
+CPXPARAM_MIP_Cuts_PathCut                        -1
+CPXPARAM_MIP_Cuts_MIRCut                         -1
+CPXPARAM_MIP_Cuts_Disjunctive                    -1
+CPXPARAM_MIP_Cuts_ZeroHalfCut                    -1
+CPXPARAM_MIP_Cuts_MCFCut                         -1
+CPXPARAM_MIP_Cuts_LiftProj                       -1
+CPXPARAM_MIP_Cuts_LocalImplied                   -1
+CPXPARAM_MIP_Cuts_BQP                            -1
+CPXPARAM_MIP_Cuts_RLT                            -1
+Tried aggregator 2 times.
+MIP Presolve eliminated 17865 rows and 2577 columns.
+MIP Presolve modified 129521 coefficients.
+Aggregator did 12721 substitutions.
+Reduced MIP has 22881 rows, 11573 columns, and 147017 nonzeros.
+Reduced MIP has 11308 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 5.61 sec. (8469.02 ticks)
+Probing fixed 2281 vars, tightened 3 bounds.
+Probing time = 6.09 sec. (749.05 ticks)
+Cover probing fixed 0 vars, tightened 20 bounds.
+Tried aggregator 1 time.
+MIP Presolve eliminated 2283 rows and 2281 columns.
+MIP Presolve modified 26181 coefficients.
+Reduced MIP has 20598 rows, 9292 columns, and 128765 nonzeros.
+Reduced MIP has 9027 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.11 sec. (59.31 ticks)
+Probing fixed 0 vars, tightened 1 bounds.
+Probing time = 3.25 sec. (59.80 ticks)
+Cover probing fixed 0 vars, tightened 24 bounds.
+Tried aggregator 1 time.
+Reduced MIP has 20598 rows, 9292 columns, and 128765 nonzeros.
+Reduced MIP has 9027 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.14 sec. (49.29 ticks)
+Probing time = 1.78 sec. (52.83 ticks)
+Cover probing fixed 0 vars, tightened 2 bounds.
+Clique table members: 103212.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 24 threads.
+Root relaxation solution time = 9.01 sec. (1696.32 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0     -178.9414   287                   -178.9414       35         
+      0     2     -178.9414   286                   -178.9414       35         
+Elapsed time = 33.09 sec. (14765.86 ticks, tree = 0.01 MB, solutions = 0)
+    145    10     -170.0036   264                   -171.2168     3503         
+    323    17     -151.5743   247                   -164.8906     5291         
+    561    24     -127.3162   204                   -144.4319     8356         
+    842    18    infeasible                         -133.0547     9869         
+   1164    18    infeasible                         -107.5170    11858         
+   1345    32      -78.3323   158                    -87.5071    13321         
+   1651    33      -59.4147   160                    -71.8115    17750         
+   2231   243      -46.2820   173                    -68.6080    27449         
+   2849   657      -39.9104   119                    -68.6080    32253         
+   4795  1286    infeasible                          -62.6792    63769         
+Elapsed time = 99.76 sec. (17899.17 ticks, tree = 3.66 MB, solutions = 0)
+   5374  1470      -36.0000   122                    -62.6792   101871         
+*  5975  1529      integral     0      -41.0000      -62.6792   115034   52.88%
+
+Root node processing (before b&c):
+  Real time             =   32.02 sec. (14671.84 ticks)
+Parallel b&c, 24 threads:
+  Real time             =   85.42 sec. (5123.19 ticks)
+  Sync time (average)   =   71.75 sec.
+  Wait time (average)   =    0.08 sec.
+                          ------------
+Total (root+branch&cut) =  117.44 sec. (19795.03 ticks)
+
+Solution pool: 1 solution saved.
+
+MIP - Integer optimal solution:  Objective = -4.1000000000e+01
+Solution time =  117.47 sec.  Iterations = 136139  Nodes = 6317
+Deterministic time = 19795.11 ticks  (168.51 ticks/sec)
+

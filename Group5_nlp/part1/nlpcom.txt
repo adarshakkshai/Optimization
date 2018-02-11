@@ -1,0 +1,12 @@
+#option solver knitro;
+#option knitro_options "multistart=1 ms_maxsolves=30 ms_maxbndrange=5 ms_enable=1";
+solve;
+display obj;
+display x1;
+display x2;
+display y1;
+display y2;
+display lambda1;
+display lambda2;
+display b1;
+display b2;

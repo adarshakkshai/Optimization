@@ -1,0 +1,195 @@
+*************************************************************
+
+   NEOS Server Version 5.0
+   Job#     : 5563282
+   Password : SxgqfhjI
+   User     : None
+   Solver   : minco:Knitro:AMPL
+   Start    : 2017-09-05 22:44:47
+   End      : 2017-09-05 22:44:58
+   Host     : NEOS HTCondor Pool
+
+   Disclaimer:
+
+   This information is provided without any express or
+   implied warranty. In particular, there is no warranty
+   of any kind concerning the fitness of this
+   information  for any particular purpose.
+*************************************************************
+File exists
+
+You are using the solver knitro.
+
+Executing AMPL.
+
+processing data.
+
+processing commands.
+
+Executing on prod-exec-2.neos-server.org
+
+
+
+2 variables, all nonlinear
+
+1 constraint, all linear; 2 nonzeros
+
+	1 inequality constraint
+
+1 nonlinear objective; 2 nonzeros.
+
+
+
+Artelys Knitro 10.2.0: ms_enable=1
+
+Artelys Knitro: Number of threads = 1
+
+
+
+=======================================
+
+           Academic License
+
+       (NOT FOR COMMERCIAL USE)
+
+         Artelys Knitro 10.2.0
+
+=======================================
+
+
+
+datacheck:               0
+
+hessian_no_f:            1
+
+ms_enable:               1
+
+ms_maxsolves:            0
+
+par_concurrent_evals:    0
+
+Knitro changing mip_method from AUTO to 1.
+
+Knitro changing mip_rootalg from AUTO to 1.
+
+Knitro changing mip_lpalg from AUTO to 3.
+
+Knitro changing mip_branchrule from AUTO to 2.
+
+Knitro changing mip_selectrule from AUTO to 2.
+
+Knitro changing mip_rounding from AUTO to 3.
+
+Knitro changing mip_heuristic from AUTO to 2.
+
+Knitro changing mip_pseudoinit from AUTO to 1.
+
+
+
+Problem Characteristics
+
+-----------------------
+
+Objective goal:  Minimize
+
+Number of variables:                     2
+
+    bounded below:                       2
+
+    bounded above:                       0
+
+    bounded below and above:             0
+
+    fixed:                               0
+
+    free:                                0
+
+Number of binary variables:              0
+
+Number of integer variables:             2
+
+Number of constraints:                   1
+
+    linear equalities:                   0
+
+    nonlinear equalities:                0
+
+    linear inequalities:                 1
+
+    nonlinear inequalities:              0
+
+    range:                               0
+
+Number of nonzeros in Jacobian:          2
+
+Number of nonzeros in Hessian:           2
+
+
+
+No start point provided -- Knitro computing one.
+
+
+
+Knitro detected 0 GUB constraints
+
+Knitro derived 0 knapsack covers after examining 0 constraints
+
+Knitro solving root node relaxation
+
+
+
+   Node    Left    Iinf     Objective         Best Relaxatn  Best Incumbent
+
+  ------  ------  ------  --------------     --------------  --------------
+
+*      1       0       0   -9.000000e+00      -9.000000e+00   -9.000000e+00
+
+
+
+EXIT: Optimal solution found.
+
+
+
+Final Statistics for MIP
+
+------------------------
+
+Final objective value               =  -9.00000000000000e+00
+
+Final integrality gap (abs / rel)   =  0.00e+00 /   0.00e+00 ( 0.00%)
+
+# of nodes processed                =        1
+
+# of subproblems processed          =        2
+
+Total program time (secs)           =       0.01976 (     0.020 CPU time)
+
+Time spent in evaluations (secs)    =       0.00101
+
+
+
+===========================================================================
+
+
+
+Knitro 10.2.0: Locally optimal or satisfactory solution.
+
+objective -9; integrality gap 0
+
+1 nodes; 2 subproblem solves
+
+
+
+suffix incumbent OUT;
+
+suffix relaxbnd OUT;
+
+obj = -9
+
+
+
+x = 0
+
+
+
+y = -3

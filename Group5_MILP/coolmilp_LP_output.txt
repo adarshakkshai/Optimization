@@ -1,0 +1,46 @@
+
+Log started (V12.7.1.0) Mon Sep 18 19:52:20 2017
+
+
+Problem 'coolmilp.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+CPXPARAM_Read_APIEncoding                        "UTF-8"
+Found incumbent of value -1.550000 after 0.00 sec. (0.00 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 5 rows and 5 columns.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.01 ticks)
+Parallel b&c, 24 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.01 ticks)
+
+Solution pool: 1 solution saved.
+
+MIP - Integer optimal solution:  Objective = -1.5500000000e+00
+Solution time =    0.00 sec.  Iterations = 0  Nodes = 0
+Deterministic time = 0.01 ticks  (1.51 ticks/sec)
+
+
+Incumbent solution
+Variable Name           Solution Value
+x1                            2.000000
+
+Incumbent solution
+The variable 'x2' is 0.
+
+Incumbent solution
+Variable Name           Solution Value
+x3                            1.000000
+
+Incumbent solution
+The variable 'x4' is 0.
+
+Incumbent solution
+Variable Name           Solution Value
+x5                            1.500000

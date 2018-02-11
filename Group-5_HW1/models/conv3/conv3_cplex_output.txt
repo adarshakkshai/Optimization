@@ -1,0 +1,61 @@
+*************************************************************
+
+   NEOS Server Version 5.0
+   Job#     : 5562700
+   Password : RFQbjase
+   User     : None
+   Solver   : milp:CPLEX:AMPL
+   Start    : 2017-09-05 10:36:23
+   End      : 2017-09-05 10:36:29
+   Host     : NEOS HTCondor Pool
+
+   Disclaimer:
+
+   This information is provided without any express or
+   implied warranty. In particular, there is no warranty
+   of any kind concerning the fitness of this
+   information  for any particular purpose.
+*************************************************************
+File exists
+
+You are using the solver cplexamp.
+
+Checking ampl.mod for cplex_options...
+
+Checking ampl.com for cplex_options...
+
+Executing AMPL.
+
+processing data.
+
+processing commands.
+
+Executing on prod-exec-3.neos-server.org
+
+
+
+2 variables, all nonlinear
+
+2 constraints, all nonlinear; 4 nonzeros
+
+	2 inequality constraints
+
+1 nonlinear objective; 2 nonzeros.
+
+
+
+CPLEX 12.7.0.0: timelimit=300
+
+threads=4
+
+CPLEX 12.7.0.0: Diagonal QP Hessian has elements of the wrong sign.
+
+obj = 0
+
+
+
+x = 0
+
+
+
+y = 0

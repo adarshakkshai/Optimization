@@ -1,0 +1,85 @@
+*************************************************************
+
+   NEOS Server Version 5.0
+   Job#     : 5561386
+   Password : tTXaHwjB
+   User     : None
+   Solver   : milp:Gurobi:AMPL
+   Start    : 2017-09-04 20:51:06
+   End      : 2017-09-04 20:51:32
+   Host     : NEOS HTCondor Pool
+
+   Disclaimer:
+
+   This information is provided without any express or
+   implied warranty. In particular, there is no warranty
+   of any kind concerning the fitness of this
+   information  for any particular purpose.
+*************************************************************
+File exists
+
+You are using the solver gurobi_ampl.
+
+Checking ampl.mod for gurobi_options...
+
+Checking ampl.com for gurobi_options...
+
+Executing AMPL.
+
+processing data.
+
+processing commands.
+
+Executing on prod-exec-1.neos-server.org
+
+
+
+2 variables, all nonlinear
+
+1 constraint, all nonlinear; 2 nonzeros
+
+	1 inequality constraint
+
+1 nonlinear objective; 2 nonzeros.
+
+
+
+Gurobi 7.0.1: timelim=300
+
+threads=4
+
+outlev=1
+
+Optimize a model with 0 rows, 2 columns and 0 nonzeros
+
+Model has 2 quadratic objective terms
+
+Model has 1 quadratic constraint
+
+Coefficient statistics:
+
+  Matrix range     [0e+00, 0e+00]
+
+  QMatrix range    [1e+00, 1e+00]
+
+  Objective range  [0e+00, 0e+00]
+
+  QObjective range [2e+00, 2e+00]
+
+  Bounds range     [2e+00, 2e+00]
+
+  RHS range        [0e+00, 0e+00]
+
+Gurobi 7.0.1: quadratic objective or constraint is not positive definite
+
+No basis.
+
+obj = 0
+
+
+
+x = 0
+
+
+
+y = 0

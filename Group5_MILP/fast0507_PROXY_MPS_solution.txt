@@ -1,0 +1,19 @@
+First solution -->                      value         185.00000000; t.     0.22
+* it    1: cutoff         184.00000000; value         184.00000000; t.     1.37; nod      0; dist    2
+* it    2: cutoff         183.00000000; value         183.00000000; t.     2.39; nod      0; dist    2
+* it    3: cutoff         182.00000000; value         181.00000000; t.     3.40; nod      0; dist    5
+* it    4: cutoff         180.00000000; value         180.00000000; t.     4.70; nod      0; dist    4
+* it    5: cutoff         179.00000000; value         179.00000000; t.     5.87; nod      0; dist    4
+* it    6: cutoff         178.00000000; value         178.00000000; t.     7.42; nod      0; dist    5
+* it    7: cutoff         177.00000000; value         177.00000000; t.     9.30; nod      0; dist    9
+* it    8: cutoff         176.00000000; value         176.00000000; t.    11.06; nod      0; dist   24
+* it    9: cutoff         175.00000000; value         175.00000000; t.    14.15; nod      0; dist   14
+* it   10: cutoff         174.00000000; value         174.00000000; t.    18.26; nod      0; dist   28
+* it   11: cutoff         173.00000000; INFEASIBLE
+
+
+Done: best value          174.00000000 after   677.71 sec.s
+
+
+
+*** The file linked to below contains the solution in MST and SOL formats ***
